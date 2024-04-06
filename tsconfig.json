@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compileOnSave": true,
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "noEmitOnError": true,
+    "target": "es6",
+    "outDir": "./dist/"
+  }
+}

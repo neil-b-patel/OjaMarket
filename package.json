@@ -1,4 +1,22 @@
 {
   "name": "ojamarket",
-  "packageManager": "yarn@4.1.1"
+  "version": "0.1.0-SNAPSHOT",
+  "description": "Tracks trading card collections and prices",
+  "repository": "git@github.com:neil-b-patel/ojamarket.git",
+  "author": "Neil Patel",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "tsc",
+    "start": "./bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
 }
