@@ -12,13 +12,17 @@
     "dev": "ts-node ./src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@3.8.1",
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
     "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.5",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
   }
 }

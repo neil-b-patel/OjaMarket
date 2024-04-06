@@ -6,7 +6,7 @@ OjaMarket is a simple and free trading card collection and price tracker.
 
 ### Getting Started
 
-This project uses [Yarn](https://yarnpkg.com/) v4.1.1 to manage and install packages.
+This project uses [Yarn](https://yarnpkg.com/) v3.8.1 to manage and install packages.
 
 To install dependencies, run:
 
