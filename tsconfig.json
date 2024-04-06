@@ -4,8 +4,10 @@
   "include": ["./src/**/*"],
   "compilerOptions": {
     "alwaysStrict": true,
+    "module": "CommonJS",
     "noEmitOnError": true,
-    "target": "es6",
-    "outDir": "./dist/"
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "target": "es6"
   }
 }
